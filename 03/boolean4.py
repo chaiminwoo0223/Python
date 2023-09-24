@@ -3,6 +3,7 @@ print(True and True)
 print(True and False)
 print(False and True)
 print(False and False)
+print()
 
 # or 연산자
 print(True or True)
