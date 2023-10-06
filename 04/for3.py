@@ -1,9 +1,9 @@
-# 전개 연산자: *
-a = [1, 2, 3, 4]
-b = [*a]
-c = [*a, 5]
+dictionary = {
+    "name": "7D 건조 망고",
+    "type": "당절임",
+    "ingredient": ["망고", "설탕", "메타중아황산나트륨", "치자황색소"],
+    "origin": "필리핀"
+}
 
-print(a)
-print(b)
-print(c)
-print(*c)
+for key in dictionary:
+    print(f'{key}: {dictionary[key]}')
