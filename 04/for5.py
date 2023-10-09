@@ -7,5 +7,4 @@ for number in numbers:
         counter[number] = 1
     else:
         counter[number] += 1
-
 print(counter)
