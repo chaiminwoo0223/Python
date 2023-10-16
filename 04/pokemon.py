@@ -6,10 +6,10 @@ pokemon = {
     }
 
 for key in pokemon:
-    if type(pokemon[key]) is list:
+    if type(pokemon[key]) == list:
         for element in pokemon[key]:
             print(key, ":", element)
-    elif type(pokemon[key]) is dict:
+    elif type(pokemon[key]) == dict:
         for skill in pokemon[key]:
             print(key, ":", pokemon[key][skill])
     else:
