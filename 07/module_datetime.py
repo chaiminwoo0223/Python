@@ -1,9 +1,9 @@
 # datetime 모듈
-import datetime
+from datetime import datetime
 
 # 현재 시각을 구하고 출력하기
 print("# 현재 시각 출력하기")
-now = datetime.datetime.now()
+now = datetime.now()
 print(now.year, "년")
 print(now.month, "월")
 print(now.day, "일")
